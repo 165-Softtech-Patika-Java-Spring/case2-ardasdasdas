@@ -1,5 +1,16 @@
 # Case2
 
+## Not:
+application.properties içerisinde ```server.servlet.context-path=/case2``` şeklinde verilmiştir. Bu sebeple proje local host ile çalıştırıldıktan sonra Swagger UI ve H2 Database'e ulaşmak için URI'ye '/case2' eklenmelidir.
+
+Swagger UI: http://localhost:8080/case2/swagger-ui/index.html
+
+H2 Database: http://localhost:8080/case2/h2-console/login.jsp
+
+
+
+
+
 ## Adres Kayıt Sistemi:  
 Bir adreste bulunması gereken alanlar:  
 - Ülke 
